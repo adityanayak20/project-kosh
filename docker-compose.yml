@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  kosh-app:
+    build: . # Use the Dockerfile in the current directory
+    container_name: projekt-kosh
+    ports:
+      - "3000:3000" # Map host port 3000 to container port 3000
+    restart: unless-stopped
+    environment:
+      # You can add runtime environment variables here if needed
+      # e.g., API_URL: http://example.com
+      NODE_ENV: production
+      PORT: 3000 # Explicitly set port for clarity, though it's default
