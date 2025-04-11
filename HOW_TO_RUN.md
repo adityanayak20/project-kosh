@@ -1,7 +1,3 @@
-Okay, here is the text formatted suitably for a `.docx` document. You can copy and paste this directly into Microsoft Word or a similar program, and it should retain the basic structure with headings, lists, and code blocks (which you might want to style further in Word).
-
----
-
 # Running Projekt Kosh with Docker (Instructions for Friend)
 
 Here's how to get the Projekt Kosh wallet generator running on your machine using Docker after cloning it from GitHub.
